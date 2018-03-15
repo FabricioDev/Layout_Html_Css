@@ -1,16 +1,18 @@
-* {
-	box-sizing: border-box;
-}
+/*
+	Prioridade:
+	id
+	class
+	tag
+	ordem
+*/
+
+@import url('reset.css');
+@import url('grid.css');
+@import url('buttons.css');
 
 body
 {
 	font-family: 'Open Sans', sans-serif;
-	margin: 0;
-	padding: 0;
-}
-
-a {
-	text-decoration: none;
 }
 
 #header .btn {
@@ -48,7 +50,8 @@ a {
 
 #header a
 {
-	color: #fff;
+	color: #ffffff;
+	transition: ease .5s all;
 }
 #header nav{
 	text-align: right;
